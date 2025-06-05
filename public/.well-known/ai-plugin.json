@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "pCloud GPT",
+  "name_for_model": "pcloud_gpt",
+  "description_for_human": "Accède à ton espace pCloud avec GPT",
+  "description_for_model": "Plugin permettant de lire, créer et lister des fichiers dans pCloud via une API.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://www.pcloud.com/favicon.ico",
+  "contact_email": "bbigsam@gmail.com",
+  "legal_info_url": "https://www.pcloud.com/terms_and_conditions.html"
+}
