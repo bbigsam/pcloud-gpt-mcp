@@ -2,7 +2,7 @@
   "schema_version": "v1",
   "name_for_human": "pCloud GPT",
   "name_for_model": "pcloud_gpt",
-  "description_for_human": "Accède à ton espace pCloud avec GPT",
+  "description_for_human": "Accède à ton espace pCloud via GPT",
   "description_for_model": "Plugin permettant de lire, créer et lister des fichiers dans pCloud via une API.",
   "auth": {
     "type": "none"
