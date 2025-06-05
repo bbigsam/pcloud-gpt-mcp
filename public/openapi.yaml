@@ -13,7 +13,7 @@ paths:
       operationId: listFiles
       responses:
         "200":
-          description: Liste de fichiers
+          description: Liste de fichiers renvoyée
     post:
       summary: Créer un nouveau dossier
       operationId: createFolder
