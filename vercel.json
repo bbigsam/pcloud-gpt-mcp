@@ -4,30 +4,17 @@
     {
       "source": "/.well-known/ai-plugin.json",
       "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/json"
-        }
+        { "key": "Content-Type", "value": "application/json" }
       ]
     },
     {
       "source": "/openapi.yaml",
       "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/yaml"
-        }
+        { "key": "Content-Type", "value": "text/yaml" }
       ]
     }
   ],
   "rewrites": [
-    {
-      "source": "/",
-      "destination": "/api"
-    },
-    {
-      "source": "/api/(.*)",
-      "destination": "/api/$1"
-    }
+    { "source": "/",  "destination": "/api" }
   ]
 }
