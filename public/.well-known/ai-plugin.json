@@ -7,11 +7,11 @@
   "auth": {
     "type": "none"
   },
-  "api": {
-    "type": "openapi",
-    "url": "/openapi.yaml",
-    "is_user_authenticated": false
-  },
+"api": {
+  "type": "openapi",
+  "url": "https://pcloud-gpt-mcp-git-main-samis-projects-48f8e622.vercel.app/openapi.yaml",
+  "is_user_authenticated": false
+},
   "logo_url": "https://www.pcloud.com/favicon.ico",
   "contact_email": "bbigsam@gmail.com",
   "legal_info_url": "https://www.pcloud.com/terms_and_conditions.html"
